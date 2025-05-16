@@ -1,6 +1,6 @@
 from flask import Flask
 # OOP-object orianted paradigm
-app = Flask(__name__)
+app = Flask(__name__)  
 
 @app.get("/")
 def profile():
@@ -13,3 +13,6 @@ def profile():
     }
     
     return me
+
+x = profile
+x
